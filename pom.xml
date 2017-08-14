@@ -6,7 +6,7 @@
 	<groupId>org.simon.pascal</groupId>
 	<artifactId>activate-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>activate-client</name>
 	<description>first registry</description>
@@ -41,7 +41,6 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
-		<!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
@@ -53,6 +52,12 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator</artifactId>
 			<version>0.32-1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 
